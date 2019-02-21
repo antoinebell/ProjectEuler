@@ -9,7 +9,6 @@ if __name__ == "__main__":
     for i in range(0, len(number_list)-number_range, 1):
         current_multiple = 1
         for j in range(0, number_range, 1):
-            print(j)
             current_multiple *= int(number_list[i+j])
         if current_multiple > biggest_multiple:
             biggest_multiple = current_multiple
