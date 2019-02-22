@@ -9,8 +9,3 @@ def sumPrimes(n):
 
 if __name__ == "__main__":
     print(sumPrimes(2000000))
-    #primes = eratosthenes(20000000)
-    #sum = 0
-    #for prime in primes:
-    #    sum += prime
-    #print(sum)
