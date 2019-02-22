@@ -1,4 +1,4 @@
-import math1
+import math
 
 def eratosthenes(n):
     multiples = []
